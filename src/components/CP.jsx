@@ -19,12 +19,12 @@ export default function CP() {
       <div className="pt-16 flex flex-col gap-20">
         <div className="text-4xl text-center ">Competitve Programming</div>
         <div className="flex justify-center">
-          <div className="h-[700px] w-[940px]">
+          <div className="py-10 h-[900px] w-[940px] px-4 ">
             <AwesomeSlider>
               {data.map((item, index) => (
                 <div className="py-10 h-full w-full">
-                  <div className="text-center text-3xl">{item.title}</div>
-                  <div className="py-10 px-10">
+                  <div className="text-center sm:text-3xl">{item.title}</div>
+                  <div className="pt-4 px-10">
                     <img src={item.image} />
                   </div>
                 </div>

@@ -22,7 +22,7 @@ export default function Experience() {
         <VerticalTimeline animate={true}>
           {experience.map((item, index) => (
             <VerticalTimelineElement
-              className=""
+              className="w-68"
               contentStyle={{
                 background: index % 2 == 0 ? "#F72585" : "#7209B7",
                 color: "#fff",
@@ -38,7 +38,7 @@ export default function Experience() {
                 color: "#fff",
               }}
             >
-              <div className="text-xl font-semibold vertical-timeline-element-title">
+              <div className="text-lg sm:text-xl font-semibold vertical-timeline-element-title">
                 {item.name}
               </div>
               <div className="vertical-timeline-element-subtitle">
